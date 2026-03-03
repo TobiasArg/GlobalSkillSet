@@ -1,24 +1,24 @@
 # GlobalSkillSet
 
-Coleccion personal de skills que considero utiles para uso global en mis agentes.
+Personal collection of skills I consider useful for global use across my agents.
 
-## Que es este repo
+## What this repo is
 
-Este repositorio guarda skills curadas para reutilizar en distintos proyectos y sesiones, con foco en:
+This repository stores curated skills that can be reused across projects and sessions, with a focus on:
 
-- productividad
-- calidad tecnica
-- seguridad
-- reutilizacion
+- productivity
+- technical quality
+- security
+- reusability
 
-## Estructura
+## Structure
 
-Cada carpeta representa una skill independiente con su `SKILL.md` y, cuando aplica, recursos adicionales.
+Each folder represents one standalone skill with its `SKILL.md` and, when relevant, additional resources.
 
-## Objetivo
+## Goal
 
-Tener una base de skills confiable, versionada y facil de mantener para acelerar trabajo real sin perder control.
+Maintain a trusted, versioned, and easy-to-manage skill base to speed up real work without losing control.
 
 ---
 
-Hecho con criterio practico: solo quedan las skills que realmente aportan valor.
+Built with a practical filter: only skills that deliver real value stay here.
