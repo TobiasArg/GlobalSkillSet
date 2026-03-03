@@ -110,9 +110,9 @@ git branch backup/<branch>-<date>
 - Keep working tree clean before rebase/bisect/cherry-pick.
 - After any history rewrite, run tests before push.
 
-## Team Standard (Recommended)
+## Team Policy (Mandatory)
 
-This is useful and usually optimal for medium/large teams because it improves review speed, release traceability, and incident response.
+These standards are required for repository consistency, review quality, and traceability.
 
 ### Branch Naming
 
@@ -127,11 +127,11 @@ Examples:
 - `feat/auth-session-refresh`
 - `fix/api-timeout-retry`
 
-### Commit Message Convention (Conventional Commits)
+### Commit Format Policy
 
 Pattern:
 
-`type(scope): short intent`
+`type(scope): short-description`
 
 Types:
 
@@ -142,15 +142,16 @@ Examples:
 - `feat(auth): add refresh token rotation`
 - `fix(api): handle 504 retry with backoff`
 
-### Pull Request Standard
+### Pull Request Policy
 
+- Every PR must include:
 - Problem statement (what and why)
 - Solution summary (how)
 - Impact level: LOW/MEDIUM/HIGH/CRITICAL
 - Validation evidence (tests/typecheck/build)
 - Risks and rollback notes (if applicable)
 
-### Minimal PR Checklist
+### Minimal PR Checklist (Required)
 
 - Scope is single objective
 - Commit history is clean and intentional
